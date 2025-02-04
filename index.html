@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/telas.css" media="all">
+</head>
+<body>
+    <main>
+        <section id="tela">
+            <div id="imagem">
+                
+            </div>
+            <div id="login">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+
+                    <label for="imail">
+                        <article class="enter">
+                            <span class="material-symbols-outlined" id="person" class="icon"> person</span>
+                            <input type="email" id="imail" class="color" placeholder="seu e-mail" required>
+                        </article>
+                    </label>
+                    
+                    <label for="isenha">
+                        <article class="enter">
+                            <span class="material-symbols-outlined" id="key" class="icon"> vpn_key </span>
+                                <input type="password" id="isenha" class="color" placeholder="sua senha" required minlength="6" maxlength="10">
+                        </article>
+                    </label>
+
+
+                        <input type="submit" value="Entrar" id="enviar"> 
+                        <input type="reset" value="Limpar" id="resetar"> 
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

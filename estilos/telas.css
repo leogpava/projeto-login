@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background: linear-gradient(to right, #5f2c82, #49a09d);
+    }
+
+    main {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    section#tela {
+        height: 54.7vh;
+    }
+
+
+    section#tela > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#imagem {
+        border-radius: 20px 0px 00px 20px;
+    }
+
+    section#tela > div#login {
+        float: right;
+        width: 70%;
+    }
+
+    input#resetar {
+        width: 100%;
+    }
+
+    input#enviar {
+        width: 100%;
+    }
+
+}
+
+/* DESKTOP */
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: linear-gradient(to right, #5f2c82, #49a09d);
+
+    }
+
+    main {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    section#tela {
+        height: 64.6vh;
+    }
+
+    section#tela > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#imagem {
+        border-radius: 20px 0px 00px 20px;
+    }
+
+    section#tela > div#login {
+        float: right;
+        width: 50%;
+    }
+
+    input#resetar {
+        width: 100%;
+    }
+
+    input#enviar {
+        width: 100%;
+    }
+
+}
+
+/* TV */
+
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: linear-gradient(to right, #5f2c82, #49a09d);
+        height: 100%;
+    }
+
+    section#tela {
+        height: 64.6vh;
+    }
+
+    main {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    section#tela > div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    div#imagem {
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    section#tela > div#login {
+        float: left;
+        width: 50%;
+    }
+
+    input#resetar {
+        width: 100%;
+    }
+
+    input#enviar {
+        width: 100%;
+    }
+
+}
